@@ -5,7 +5,7 @@ export const Sidebar = async function () {
     const posts = await getAllPosts()
     return (
         <>
-            <h2>one.ilmsg.in.th</h2>
+            <h2>gigle.ilmsg.in.th</h2>
             <ul className="list-group">
                 <li key={99} className="list-group-item"><Link href="/">⛪ Home</Link></li>
                 {posts.map((post) => (
